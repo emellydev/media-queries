@@ -53,6 +53,7 @@ header nav {
 }
 
 header nav img {
+    background-color: none;
     width: 20px;
 }
 
