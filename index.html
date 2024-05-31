@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querie</title>
+    <link rel="stylesheet" href="estilos/base.css" media="screen">
+    <link rel="stylesheet" href="estilos/telas-medias.css" media="screen and (min-width:640px)">
+    <link rel="stylesheet" href="estilos/telas-grandes.css" media="screen and (min-width:1200px)">
+    <link rel="stylesheet" href="estilos/print.css" media="print">
+    
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <button id="button-menu"><img id="menu" src="imagens/menu-icon48px.png" alt="menu de navagação"></button>
+            <a id="menu1" href="">menu1</a>
+            <a id="menu2" href="">menu2</a>
+            <a id="menu3" href="">menu3</a>
+            <a id="menu4" href="">menu4</a>
+            <a id="menu5" href="">menu5</a>
+
+            <script src="script.js"></script>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Testando Media Queries</h2>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatum dolorem consequuntur, tempora praesentium nemo temporibus ullam, iure et voluptatem beatae voluptate sed blanditiis eligendi laudantium minima quo nisi ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam non vitae voluptates animi autem earum, qui atque consequuntur nostrum, hic tempora eaque sit ab neque aut mollitia architecto et deserunt?</p>
+
+        <div class="img-container">
+            <picture>
+                <source media="(min-width:640px)" srcset="https://placehold.co/400x300">
+                <source media="(min-width:1200px)" srcset="https://placehold.co/500x300">
+                <img src="https://placehold.co/300x300" alt="">
+            </picture>
+        </div>
+        
+        
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis quae eligendi fugit vel, ullam doloribus qui consectetur aut at necessitatibus ducimus voluptatem ab quo tenetur perferendis, magnam nemo earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, necessitatibus excepturi eveniet cum inventore accusamus nisi quia voluptas, magni possimus itaque! Reiciendis odio inventore, incidunt est sint aliquid non nisi.</p>
+
+        <div class="img-container">
+            <picture>
+                <source media="(min-width:640px)" srcset="https://placehold.co/400x300">
+                <source media="(min-width:1200px)" srcset="https://placehold.co/500x300">
+                <img src="https://placehold.co/300x300" alt="">
+            </picture>
+        </div>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, ut ad hic laudantium quo, tempore saepe itaque dolore laboriosam, commodi at reprehenderit voluptatem consequuntur ullam neque officia eum officiis. Corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam libero nulla expedita sequi fugit deleniti iusto non natus provident voluptate molestias corporis veniam illo sapiente, at vero quam delectus!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel impedit magnam neque, atque aperiam eaque soluta porro possimus unde fugiat facere dolorem minima qui optio obcaecati consectetur, dolor doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, repudiandae! Necessitatibus beatae tempora officia, dignissimos, maxime quia laborum nobis in tempore repudiandae, a totam reiciendis. Illum nihil ratione eius dolorum!</p>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Emelly Beatriz</p>
+    </footer>
+</body>
+</html>
