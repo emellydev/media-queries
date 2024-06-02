@@ -43,7 +43,7 @@ header h1 {
 }
 
 header nav {
-    background-color: white;
+    background-color: #F0F0F0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,8 +52,7 @@ header nav {
     margin: 0px 0px 6px 0px;
 }
 
-header nav img {
-    background-color: none;
+header img {
     width: 20px;
 }
 
