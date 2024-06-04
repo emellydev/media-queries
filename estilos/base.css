@@ -123,8 +123,10 @@ footer p {
     }
 
     header nav a {
-        width: 90vw;
+        width: 95%;
         border: 1px solid black;
     }
 }
+
+
 
